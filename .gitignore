@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local environment files
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Large local Power BI temporary files
+*.pbit.tmp
+
+# Raw files can be large; keep source notes in GitHub and add selected raw datasets deliberately
+# data/raw/*.csv
+# data/raw/*.xlsx
