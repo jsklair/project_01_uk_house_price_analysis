@@ -28,13 +28,13 @@ The UK House Price Index reports are published by HM Land Registry and include C
 
 This source may be used to provide additional context on recent house price movement, especially where a local area's affordability ratio has changed materially.
 
-## Source handling notes
+## Source handling approach
 
-- Keep unedited downloads in `data/raw/`.
-- Save cleaned analysis-ready extracts in `data/cleaned/`.
-- Record any assumptions or transformations in the cleaning log.
-- Do not manually edit raw files.
-- Keep source URLs, download dates and release dates in this file.
+- Unedited downloads are retained in `data/raw/`.
+- Analysis-ready extracts are saved in `data/cleaned/`.
+- Assumptions and transformations are recorded in the cleaning log.
+- Raw files remain unchanged.
+- Source URLs, download dates and release dates are recorded in this file.
 
 ## Download log
 
