@@ -1,8 +1,14 @@
 # Project 01: First-Time Buyer Affordability Pressure by Area
 
+## Executive summary
+
+This project analyses first-time buyer affordability pressure across areas in England and Wales. It uses lower-quartile house price to lower-quartile workplace-based earnings ratios as the primary measure, because this better reflects the entry-level end of the housing market than a headline average or median-only view.
+
+The analysis is designed to identify where first-time buyers face the greatest pressure, how affordability varies by area, and where national averages may hide important local differences. The final outputs will include a cleaned dataset, SQL analysis, Python profiling and exploratory analysis, an Excel review workbook, a Power BI dashboard and a concise business-facing case study.
+
 ## Project status
 
-Set-up in progress. This repository is being prepared as the first project in a professional Data Analyst portfolio.
+Set-up and data collection are in progress. The repository forms the first project in a professional Data Analyst portfolio.
 
 ## Business background
 
@@ -12,7 +18,7 @@ The purpose of this project is to identify which areas in England and Wales plac
 
 ## Problem statement
 
-First-time buyers do not experience the housing market evenly. A national average can hide large differences between local areas. This project will compare lower-quartile house prices with lower-quartile earnings to understand where entry-level housing is most and least affordable.
+First-time buyers do not experience the housing market evenly. A national average can hide large differences between local areas. This project compares lower-quartile house prices with lower-quartile earnings to understand where entry-level housing is most and least affordable.
 
 ## Objectives
 
@@ -31,10 +37,10 @@ The project will be considered successful when it contains:
 - A cleaned dataset suitable for SQL, Python, Excel and Power BI analysis.
 - A data dictionary and cleaning log.
 - SQL queries with clear annotations.
-- A Python notebook for data cleaning and exploratory analysis.
+- A Python notebook for data collection, cleaning and exploratory analysis.
 - An Excel workbook for review-style analysis or summary checks.
 - A Power BI dashboard or dashboard mock-up.
-- A professional README explaining the business question, findings, recommendations, limitations and interview talking points.
+- A professional README explaining the business question, findings, recommendations, limitations and technical review points.
 
 ## Core tools
 
@@ -67,6 +73,6 @@ This project focuses on first-time buyer affordability pressure by area. For tha
 └── visuals/
 ```
 
-## Current next step
+## Next analytical step
 
-Download the official source data, save it in `data/raw/`, and create the first cleaning notebook.
+The next stage completes source profiling and then creates the cleaning notebook that turns the ONS workbook into an analysis-ready area-year dataset.
