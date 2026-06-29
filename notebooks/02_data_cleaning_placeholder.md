@@ -1,8 +1,8 @@
 # Notebook 02 placeholder: data cleaning
 
-This placeholder exists to show the planned next step.
+This placeholder records the planned next analytical step.
 
-Do not build the cleaning notebook until `01_data_collection_and_profiling.ipynb` has been run and the correct sheet/header structure has been confirmed.
+The cleaning notebook will be created after `01_data_collection_and_profiling.ipynb` has profiled the workbook structure and confirmed the correct sheet/header structure.
 
 Planned outputs:
 
