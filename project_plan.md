@@ -6,7 +6,7 @@ Which areas in England and Wales place the greatest affordability pressure on po
 
 ## 2. Intended audience
 
-The analysis should be understandable to a non-technical stakeholder, such as:
+The analysis is written for a non-technical stakeholder, such as:
 
 - a housing policy analyst;
 - a mortgage strategy team;
@@ -16,7 +16,7 @@ The analysis should be understandable to a non-technical stakeholder, such as:
 
 ## 3. Analytical approach
 
-The main measure will be the lower-quartile house price to lower-quartile workplace-based earnings ratio. This is a practical proxy for entry-level affordability because it compares lower-priced homes with lower earnings.
+The main measure is the lower-quartile house price to lower-quartile workplace-based earnings ratio. This is a practical proxy for entry-level affordability because it compares lower-priced homes with lower earnings.
 
 The analysis will:
 
@@ -57,7 +57,7 @@ These are not conclusions. They are starting points to test.
 - Power BI dashboard.
 - README case study.
 - GitHub Pages project summary.
-- Interview questions and answers.
+- Technical review notes.
 
 ## 7. Risks and limitations to manage
 
@@ -69,4 +69,4 @@ These are not conclusions. They are starting points to test.
 
 ## 8. First build milestone
 
-Create a clean project scaffold, source the official datasets, document the data, and complete the first data quality review.
+The first build milestone creates a clean project scaffold, sources the official datasets, documents the data and completes the first data quality review.
