@@ -1,12 +1,12 @@
 # Reports
 
-This folder will hold written outputs for the project.
+This folder contains written outputs for the project.
 
 Planned files:
 
 - `executive_summary.md`
 - `cleaning_log.md`
 - `limitations.md`
-- `interview_questions.md`
+- `technical_review_notes.md`
 
-The writing should be concise, specific and business-facing. It should explain what the analysis means, not simply describe charts.
+The writing is concise, specific and business-facing. It explains what the analysis means, rather than simply describing charts.
