@@ -1,0 +1,10 @@
+column_name,missing_pct
+country_region_code,0.0
+country_region_name,0.0
+local_authority_code,0.0
+local_authority_name,0.0
+year,0.0
+lower_quartile_house_price,0.0
+lower_quartile_annual_earnings,1.81
+lower_quartile_affordability_ratio,1.81
+median_affordability_ratio,1.84

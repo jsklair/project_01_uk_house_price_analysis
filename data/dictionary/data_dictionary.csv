@@ -1,0 +1,12 @@
+column_name,description,type
+country_region_code,ONS code for the country or English region,string
+country_region_name,Country or English region name,string
+local_authority_code,ONS local authority code,string
+local_authority_name,Local authority name,string
+year,Reference year,integer
+lower_quartile_house_price,Lower-quartile house price from ONS affordability workbook,numeric
+lower_quartile_annual_earnings,Lower-quartile gross annual workplace-based earnings,numeric
+lower_quartile_affordability_ratio,Lower-quartile house price divided by lower-quartile annual earnings,numeric
+median_affordability_ratio,"Median house price divided by median annual earnings, included as a comparison measure",numeric
+affordability_pressure_band,Banding derived from the lower-quartile affordability ratio,string
+latest_year_rank_most_pressured,"Latest-year dense rank, with 1 assigned to the highest affordability pressure",numeric

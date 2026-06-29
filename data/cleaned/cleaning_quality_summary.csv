@@ -1,0 +1,7 @@
+check,result
+row_count,9222
+column_count,9
+duplicate_local_authority_year_keys,0
+missing_local_authority_code,0
+missing_local_authority_name,0
+missing_year,0
