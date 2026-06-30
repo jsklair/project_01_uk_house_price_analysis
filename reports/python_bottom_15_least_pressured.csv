@@ -1,0 +1,16 @@
+country_region_name,local_authority_name,lower_quartile_house_price,lower_quartile_annual_earnings,lower_quartile_affordability_ratio
+North East,County Durham,92500,27003.0,3.43
+North West,Burnley,85000,24417.0,3.48
+North West,Hyndburn,92500,26327.0,3.51
+North East,Hartlepool,100000,26716.0,3.74
+North East,Middlesbrough,105000,27262.0,3.85
+North West,Pendle,100000,25497.0,3.92
+North West,Blackpool,105000,26224.0,4.0
+Yorkshire and The Humber,"Kingston upon Hull, City of",110000,26613.0,4.13
+North West,Cumberland,122500,29684.0,4.13
+West Midlands,Stoke-on-Trent,115000,27711.0,4.15
+Wales,Neath Port Talbot,125000,30000.0,4.17
+North East,Sunderland,110000,25807.0,4.26
+Wales,Blaenau Gwent,110000,25542.0,4.31
+Yorkshire and The Humber,North East Lincolnshire,115000,26325.0,4.37
+Wales,Merthyr Tydfil,112625,25761.0,4.37

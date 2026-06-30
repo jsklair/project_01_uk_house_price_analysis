@@ -1,0 +1,16 @@
+country_region_name,local_authority_name,lower_quartile_house_price,lower_quartile_annual_earnings,lower_quartile_affordability_ratio
+London,Kensington and Chelsea,700000,33510.0,20.89
+London,Richmond upon Thames,491875,30765.0,15.99
+South East,Tandridge,387625,25167.0,15.4
+South East,Elmbridge,450000,29535.0,15.24
+London,Westminster,575000,37787.0,15.22
+London,Haringey,440000,29021.0,15.16
+London,Wandsworth,453625,31275.0,14.5
+South East,Sevenoaks,360000,25237.0,14.26
+London,Hammersmith and Fulham,515000,36244.0,14.21
+London,Redbridge,375000,26422.0,14.19
+London,Waltham Forest,410000,28906.0,14.18
+London,Brent,410000,28962.0,14.16
+East of England,St Albans,428625,30763.0,13.93
+London,Camden,538830,38971.0,13.83
+London,Merton,416625,30274.0,13.76
