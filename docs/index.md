@@ -42,13 +42,15 @@ A national house price average is not enough to understand affordability. Buyers
 - Python summary outputs.
 - Visual outputs.
 - Python exploratory findings report.
+- Excel review workbook.
+- Excel workbook specification.
 
 ## Planned next outputs
 
-- Excel summary workbook.
 - Power BI dashboard.
+- Power BI screenshots or exported summary images.
 - Final business-facing recommendations.
 
 ## Status
 
-Data collection, cleaning, SQL analysis and Python exploratory analysis are complete. The next stage is the Excel review workbook.
+Data collection, cleaning, SQL analysis, Python exploratory analysis and the Excel review workbook are complete. The next stage is the Power BI dashboard.
