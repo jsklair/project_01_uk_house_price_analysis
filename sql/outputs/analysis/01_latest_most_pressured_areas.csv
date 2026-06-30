@@ -1,0 +1,21 @@
+country_region_name,local_authority_code,local_authority_name,year,lower_quartile_house_price,lower_quartile_annual_earnings,lower_quartile_affordability_ratio,median_affordability_ratio,affordability_pressure_rank
+London,E09000020,Kensington and Chelsea,2025,700000,33510.0,20.89,25.22,1
+London,E09000027,Richmond upon Thames,2025,491875,30765.0,15.99,17.55,2
+South East,E07000215,Tandridge,2025,387625,25167.0,15.4,13.23,3
+South East,E07000207,Elmbridge,2025,450000,29535.0,15.24,15.74,4
+London,E09000033,Westminster,2025,575000,37787.0,15.22,16.04,5
+London,E09000014,Haringey,2025,440000,29021.0,15.16,13.44,6
+London,E09000032,Wandsworth,2025,453625,31275.0,14.5,14.7,7
+South East,E07000111,Sevenoaks,2025,360000,25237.0,14.26,13.43,8
+London,E09000013,Hammersmith and Fulham,2025,515000,36244.0,14.21,13.88,9
+London,E09000026,Redbridge,2025,375000,26422.0,14.19,14.16,10
+London,E09000031,Waltham Forest,2025,410000,28906.0,14.18,14.35,11
+London,E09000005,Brent,2025,410000,28962.0,14.16,14.49,12
+East of England,E07000240,St Albans,2025,428625,30763.0,13.93,15.01,13
+London,E09000007,Camden,2025,538830,38971.0,13.83,14.37,14
+London,E09000024,Merton,2025,416625,30274.0,13.76,14.17,15
+East of England,E07000068,Brentwood,2025,383000,28025.0,13.67,12.88,16
+South East,E07000216,Waverley,2025,399975,29280.0,13.66,13.29,17
+South East,E06000040,Windsor and Maidenhead,2025,410000,30234.0,13.56,13.28,18
+London,E09000003,Barnet,2025,405562,29968.0,13.53,14.86,19
+London,E09000015,Harrow,2025,390000,29191.0,13.36,14.03,20
