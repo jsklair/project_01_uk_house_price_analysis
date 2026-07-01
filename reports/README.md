@@ -10,9 +10,12 @@ This folder contains written outputs for the project.
 - `python_exploratory_findings.md`
 - `technical_review_notes.md`
 - `final_recommendations.md`
+- `project_review_questions.md`
 
 The writing is concise, specific and business-facing. It explains what the analysis means, rather than simply describing charts.
 
 ## Portfolio purpose
 
 The reports show how the technical analysis has been translated into a clear narrative for a non-technical stakeholder. They also document the limitations, assumptions and interpretation choices behind the project.
+
+The project review questions support discussion of the methodology, tool choices, limitations and possible extensions.
