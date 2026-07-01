@@ -12,7 +12,9 @@ The analysis also shows why latest-year rankings should be considered alongside 
 
 ## Project status
 
-Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review and Power BI dashboard development are complete. The next stage is final documentation, dashboard evidence, GitHub Pages polish and final review.
+The main project build is complete. Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review, Power BI dashboard development, dashboard screenshot evidence, final recommendations and project review questions are included.
+
+The remaining step is final PR review and merge.
 
 ## Business background
 
@@ -23,15 +25,6 @@ The purpose of this project is to identify which areas in England and Wales plac
 ## Problem statement
 
 First-time buyers do not experience the housing market evenly. A national average can hide large differences between local areas. This project compares lower-quartile house prices with lower-quartile earnings to understand where entry-level housing is most and least affordable.
-
-## Objectives
-
-- Build a clean, documented dataset using official UK housing affordability data.
-- Use lower-quartile house price to lower-quartile earnings ratios as the main affordability measure.
-- Compare affordability pressure across local authority areas.
-- Identify the areas with the highest and lowest affordability pressure.
-- Explore whether affordability has improved or worsened over time.
-- Produce a clear written narrative, visualisations and dashboard outputs for a non-technical audience.
 
 ## Data quality summary
 
@@ -65,19 +58,23 @@ The Python exploratory analysis shows that London had the highest regional media
 
 The North East had the lowest regional median at 4.66. This is less than half the London median.
 
-### 4. London has no lower or moderate pressure local authorities in the latest-year output
-
-The pressure-band analysis shows that all London local authorities in the cleaned dataset were either high pressure or severe pressure in 2025:
-
-- 22 London local authorities were in the severe-pressure band.
-- 11 London local authorities were in the high-pressure band.
-- none were in the moderate-pressure or lower-pressure bands.
-
-### 5. Recent change tells a different story from latest-year ranking alone
+### 4. Recent change tells a different story from latest-year ranking alone
 
 Tandridge recorded the largest five-year increase in the exported SQL and Python outputs, rising from a lower-quartile affordability ratio of 14.07 in 2020 to 15.40 in 2025. Oldham and Sevenoaks also recorded increases of 1.26 ratio points.
 
 This matters because some areas with more moderate current ratios may still be moving quickly in the wrong direction.
+
+## Recommendations
+
+The final recommendations report translates the analysis into practical stakeholder actions:
+
+- Do not rely on national affordability averages.
+- Treat London and the South East as distinct high-pressure markets.
+- Use lower-pressure areas as comparison groups, not as proof that affordability is easy.
+- Monitor areas where affordability pressure has worsened over time.
+- Keep the workflow transparent and repeatable for future releases.
+
+See `reports/final_recommendations.md` for the full report.
 
 ## Dashboard summary
 
@@ -89,33 +86,16 @@ The Power BI dashboard provides an interactive view of the analysis. It contains
 4. Change Over Time
 5. Methodology and Caveats
 
-The dashboard uses the cleaned area-year dataset as its source. It is designed as the presentation and exploration layer, while the Excel workbook provides a transparent review layer.
+The dashboard uses the cleaned area-year dataset as its source. Screenshots are stored in `power_bi/screenshots/` so the report can be reviewed without opening the `.pbix` file.
 
-## Success criteria
-
-The project will be considered successful when it contains:
-
-- A documented raw data source.
-- A cleaned dataset suitable for SQL, Python, Excel and Power BI analysis.
-- A data dictionary and cleaning log.
-- SQL queries with clear annotations and exported outputs.
-- A Python notebook for data collection, cleaning and exploratory analysis.
-- An Excel workbook for review-style analysis or summary checks.
-- A Power BI dashboard or dashboard mock-up.
-- A professional README explaining the business question, findings, recommendations, limitations and technical review points.
-
-## Core tools
+## Tools demonstrated
 
 - SQL
 - Python
 - Excel
 - Power BI
-- GitHub
+- Git and GitHub
 - GitHub Pages
-
-## Primary analytical angle
-
-This project focuses on first-time buyer affordability pressure by area. For that reason, the lower-quartile affordability ratio is more relevant than the median ratio, because lower-quartile prices better approximate the entry-level end of the housing market.
 
 ## Repository structure
 
@@ -135,7 +115,7 @@ This project focuses on first-time buyer affordability pressure by area. For tha
 └── visuals/
 ```
 
-## Detailed outputs
+## Main outputs
 
 - `notebooks/01_data_collection_and_profiling.ipynb` records the source collection and first profiling stage.
 - `notebooks/02_data_cleaning.ipynb` creates the cleaned area-year dataset.
@@ -145,10 +125,13 @@ This project focuses on first-time buyer affordability pressure by area. For tha
 - `sql/outputs/` stores exported SQL result sets.
 - `reports/sql_findings.md` summarises the SQL findings.
 - `reports/python_exploratory_findings.md` summarises the Python exploratory findings.
+- `reports/final_recommendations.md` contains the final business recommendations.
+- `reports/project_review_questions.md` contains project review questions and model answers.
 - `excel/first_time_buyer_affordability_review.xlsx` contains the Excel review workbook.
 - `power_bi/first_time_buyer_affordability_dashboard.pbix` contains the Power BI dashboard.
-- `visuals/` stores chart outputs for the case study and dashboard.
+- `power_bi/screenshots/` contains dashboard screenshot evidence.
+- `docs/index.md` contains the GitHub Pages project summary.
 
-## Next analytical step
+## Suggested next extension
 
-The next stage is to capture dashboard evidence, update GitHub Pages and complete the final project review before merging the project branch.
+A useful next step would add mortgage repayment assumptions, deposit requirements and household income scenarios. That would turn the current area-level affordability pressure analysis into a more detailed first-time buyer affordability model.
