@@ -1,12 +1,15 @@
 # Python scripts
 
-This folder is for reusable Python scripts that support the notebooks.
+This folder contains reusable Python scripts that support the project workflow outside the notebooks.
 
-Examples may include:
+## Scripts
 
-- data loading functions;
-- cleaning helper functions;
-- chart export functions;
-- simple validation checks.
+```text
+02_create_sqlite_database.py
+```
 
-For this first project, notebooks will probably be the main working format. Scripts can be added if repeated logic appears.
+This script creates a local SQLite database from the cleaned affordability dataset so the SQL analysis can be run against a structured local database.
+
+## Notes
+
+The main data collection, cleaning and exploratory analysis steps are documented in the notebooks. The script in this folder is included where a reusable command-line step is more appropriate than notebook-only code.
