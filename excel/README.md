@@ -1,20 +1,22 @@
 # Excel workbook
 
-This folder will contain the Excel workbook for business-style review and summary analysis.
+This folder contains the Excel workbook used for business-style review and summary analysis.
 
-The workbook should be used where Excel adds value, for example:
+## Workbook
 
-- pivot-table checks;
-- area rankings;
-- simple scenario notes;
-- executive summary tables;
-- reconciliation checks against the cleaned dataset.
+```text
+first_time_buyer_affordability_review.xlsx
+```
 
-Recommended workbook tabs:
+The workbook provides a spreadsheet-based review layer alongside the SQL, Python and Power BI outputs.
 
-1. `read_me`
-2. `raw_extract`
-3. `cleaned_data`
-4. `checks`
-5. `summary_pivots`
-6. `charts`
+## Purpose
+
+The Excel work supports:
+
+- review of the cleaned dataset;
+- summary checks and reconciliation;
+- pivot-table based exploration;
+- stakeholder-friendly review of rankings and regional patterns.
+
+Excel is not treated as the source of truth for the project. The workbook supports review and communication, while the cleaned dataset, SQL scripts and notebooks provide the reproducible analytical workflow.
