@@ -1,10 +1,17 @@
 # Raw data
 
-Store original downloaded files here.
+This folder is used locally for the original ONS workbook during project reproduction.
 
-Raw data should not be edited manually. Any changes should be made through a documented cleaning process and saved separately in `data/cleaned/`.
+## Source file
 
-Expected files:
+```text
+aff1ratioofhousepricetoworkplacebasedearnings.xlsx
+```
 
-- ONS housing affordability dataset.
-- UK House Price Index extract if used for supporting context.
+The workbook is downloaded from the ONS house price to workplace-based earnings affordability dataset.
+
+## Repository handling
+
+The raw workbook is not committed to the repository. It is excluded through `.gitignore` so the public repo contains the reproducible workflow, source notes and cleaned outputs rather than the original downloaded workbook.
+
+Raw data should not be edited manually. Any transformation should be carried out through the documented cleaning process and saved separately under `data/cleaned/`.
