@@ -1,37 +1,39 @@
 # Excel workbook specification
 
-This document defines the planned Excel review workbook for Project 01.
+This document records the design of the Excel review workbook created for Project 01.
 
-The Excel workbook should demonstrate spreadsheet analysis skills without duplicating the full Python or Power BI workflow. Its role is to provide a transparent review pack that a stakeholder could open, filter and audit.
+## Workbook
 
-## Proposed workbook name
-
-`excel/first_time_buyer_affordability_review.xlsx`
+```text
+excel/first_time_buyer_affordability_review.xlsx
+```
 
 ## Workbook purpose
 
-The workbook should answer three practical questions:
+The Excel workbook demonstrates spreadsheet analysis skills without duplicating the full Python or Power BI workflow. Its role is to provide a transparent review pack that a stakeholder could open, filter and audit.
+
+The workbook supports three practical questions:
 
 1. Which areas have the highest and lowest first-time buyer affordability pressure?
 2. How does affordability pressure vary by region?
-3. Which areas have worsened most over the last five years?
+3. Which areas have worsened most over the latest five-year comparison period?
 
-## Proposed tabs
+## Workbook structure
 
 | Tab | Purpose | Source |
 |---|---|---|
 | `README` | Explain workbook purpose, source and refresh date | Manual summary |
 | `Data` | Hold the cleaned area-year dataset as an Excel table | `data/cleaned/affordability_area_year_cleaned.csv` |
-| `Latest Year Summary` | Show latest-year top/bottom areas and key metrics | Python/SQL outputs |
+| `Latest Year Summary` | Show latest-year top and bottom areas and key metrics | Python and SQL outputs |
 | `Regional Summary` | Compare regional medians, averages and maximum ratios | `reports/python_regional_latest_summary.csv` |
 | `Five Year Change` | Show areas with the largest five-year increases | `reports/python_top_20_five_year_increases.csv` |
 | `Charts` | Provide selected visual summaries | Python chart outputs or Excel charts |
 | `Checks` | Show row counts, missing values and duplicate checks | SQL data quality outputs |
 
-## Excel skills to demonstrate
+## Excel skills demonstrated
 
 - Structured tables.
-- Lookup or linking between summary tabs and source data.
+- Summary tables.
 - Pivot-style aggregation.
 - Sorting and filtering.
 - Clear number formatting.
@@ -39,7 +41,7 @@ The workbook should answer three practical questions:
 - Chart presentation.
 - Data quality checks and review notes.
 
-## Recommended measures
+## Measures used
 
 | Measure | Definition |
 |---|---|
@@ -55,8 +57,8 @@ The workbook should answer three practical questions:
 - Use Excel as a review and communication layer, not as the main data-cleaning engine.
 - Keep raw and cleaned data separate.
 - Make the source of every summary table clear.
-- Avoid hard-coded findings where a table or formula can show the result.
+- Keep workbook findings traceable to data or summary outputs.
 
-## Planned next step
+## Relationship to other outputs
 
-Create the workbook from the cleaned data and summary CSVs, then commit the workbook and a short screenshot or export for the GitHub README.
+The workbook complements the SQL, Python and Power BI outputs. It is included to show spreadsheet review and stakeholder-friendly analysis, while the cleaned dataset, notebooks and SQL scripts provide the main reproducible workflow.
