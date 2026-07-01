@@ -28,6 +28,14 @@ A national house price average is not enough to understand affordability. Buyers
 - The North East has the lowest regional median lower-quartile affordability ratio at 4.66.
 - Tandridge recorded the largest five-year increase in the exported SQL and Python outputs, rising from 14.07 in 2020 to 15.40 in 2025.
 
+## Recommendations
+
+The final recommendations report translates the analysis into practical stakeholder actions. It recommends using local authority level analysis, treating London and the South East as distinct high-pressure markets, reviewing lower-pressure areas with appropriate caution, and monitoring areas where the ratio has worsened over time.
+
+Read the report here:
+
+[Final recommendations](../reports/final_recommendations.md)
+
 ## Outputs completed
 
 - Source collection and profiling notebook.
@@ -46,6 +54,7 @@ A national house price average is not enough to understand affordability. Buyers
 - Excel workbook specification.
 - Power BI dashboard.
 - Power BI dashboard screenshots.
+- Final recommendations report.
 
 ## Power BI dashboard
 
@@ -89,10 +98,9 @@ The dashboard is used as the interactive presentation layer. It sits alongside t
 
 ## Planned final outputs
 
-- Final business-facing recommendations.
 - Final GitHub Pages polish.
 - Final review before merging the project branch.
 
 ## Status
 
-Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review, Power BI dashboard development and dashboard evidence are complete. The project is now in the final documentation and presentation stage.
+Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review, Power BI dashboard development, dashboard evidence and final recommendations are complete. The project is now in the final polish and review stage.
