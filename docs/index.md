@@ -16,7 +16,7 @@ The project uses official housing affordability data to compare entry-level hous
 
 A national house price average is not enough to understand affordability. Buyers face local prices, local earnings and local constraints. This project focuses on area-level variation so that affordability can be compared more realistically.
 
-## Findings so far
+## Findings
 
 - The cleaned dataset contains 9,222 area-year records across 318 local authorities per year from 1997 to 2025.
 - No duplicate local-authority-year keys were found.
@@ -44,13 +44,33 @@ A national house price average is not enough to understand affordability. Buyers
 - Python exploratory findings report.
 - Excel review workbook.
 - Excel workbook specification.
-
-## Planned next outputs
-
 - Power BI dashboard.
-- Power BI screenshots or exported summary images.
+
+## Power BI dashboard
+
+The Power BI dashboard is stored at:
+
+```text
+power_bi/first_time_buyer_affordability_dashboard.pbix
+```
+
+It contains five pages:
+
+1. Executive Summary
+2. Regional Comparison
+3. Local Authority Ranking
+4. Change Over Time
+5. Methodology and Caveats
+
+The dashboard is used as the interactive presentation layer. It sits alongside the Excel workbook, SQL outputs, Python notebook and written reports rather than replacing them.
+
+## Planned final outputs
+
+- Power BI screenshots or exported dashboard evidence.
 - Final business-facing recommendations.
+- Final GitHub Pages polish.
+- Final review before merging the project branch.
 
 ## Status
 
-Data collection, cleaning, SQL analysis, Python exploratory analysis and the Excel review workbook are complete. The next stage is the Power BI dashboard.
+Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review and Power BI dashboard development are complete. The project is now in the final documentation and presentation stage.
