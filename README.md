@@ -14,8 +14,6 @@ The analysis also shows why latest-year rankings should be considered alongside 
 
 The main project build is complete. Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review, Power BI dashboard development, dashboard screenshot evidence, final recommendations and project review questions are included.
 
-The remaining step is final PR review and merge.
-
 ## Business background
 
 Buying a first home is one of the clearest examples of a business-style affordability problem: the headline price matters, but it only becomes meaningful when compared with local earnings, deposit requirements and regional variation.
@@ -126,7 +124,7 @@ The dashboard uses the cleaned area-year dataset as its source. Screenshots are 
 - `reports/sql_findings.md` summarises the SQL findings.
 - `reports/python_exploratory_findings.md` summarises the Python exploratory findings.
 - `reports/final_recommendations.md` contains the final business recommendations.
-- `reports/project_review_questions.md` contains project review questions and model answers.
+- `reports/project_review_questions.md` contains project review questions and suggested responses.
 - `excel/first_time_buyer_affordability_review.xlsx` contains the Excel review workbook.
 - `power_bi/first_time_buyer_affordability_dashboard.pbix` contains the Power BI dashboard.
 - `power_bi/screenshots/` contains dashboard screenshot evidence.
