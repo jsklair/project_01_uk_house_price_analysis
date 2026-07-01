@@ -1,6 +1,6 @@
 # Power BI dashboard
 
-This folder contains the Power BI dashboard file and notes about the dashboard design.
+This folder contains the Power BI dashboard file, screenshot evidence and notes about the dashboard design.
 
 ## Dashboard file
 
@@ -23,6 +23,24 @@ data/cleaned/affordability_area_year_cleaned.csv
 ```
 
 This keeps the dashboard connected to the analysis-ready data rather than the raw ONS workbook.
+
+## Screenshot evidence
+
+Screenshots are stored in:
+
+```text
+power_bi/screenshots/
+```
+
+Files:
+
+- `01_executive_summary.png`
+- `02_regional_comparison.png`
+- `03_local_authority_ranking.png`
+- `04_change_over_time.png`
+- `05_methodology_and_caveats.png`
+
+These screenshots make the dashboard visible on GitHub for reviewers who cannot open the `.pbix` file.
 
 ## Dashboard pages
 
