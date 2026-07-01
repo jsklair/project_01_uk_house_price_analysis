@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local environment files
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Large local Power BI temporary files
+*.pbit.tmp
+
+# Local database outputs
+data/database/*.db
+data/database/*.sqlite
+
+# Raw source files
+# Raw files are collected reproducibly by notebooks and kept out of GitHub unless deliberately required.
+data/raw/*.xlsx

@@ -1,0 +1,27 @@
+country_region_name,pressure_band,local_authority_count,average_lq_affordability_ratio
+East Midlands,High pressure,7,9.04
+East Midlands,Moderate pressure,28,6.62
+East of England,Severe pressure,8,12.88
+East of England,High pressure,29,9.75
+East of England,Moderate pressure,8,7.02
+London,Severe pressure,22,13.97
+London,High pressure,11,10.95
+North East,Moderate pressure,3,5.22
+North East,Lower pressure,9,4.29
+North West,High pressure,2,9.21
+North West,Moderate pressure,23,6.02
+North West,Lower pressure,10,4.24
+South East,Severe pressure,8,13.77
+South East,High pressure,50,10.1
+South East,Moderate pressure,6,7.1
+South West,High pressure,18,8.94
+South West,Moderate pressure,8,7.44
+Wales,High pressure,1,8.18
+Wales,Moderate pressure,17,5.97
+Wales,Lower pressure,4,4.33
+West Midlands,High pressure,7,9.13
+West Midlands,Moderate pressure,22,6.87
+West Midlands,Lower pressure,1,4.15
+Yorkshire and The Humber,High pressure,1,8.21
+Yorkshire and The Humber,Moderate pressure,9,5.76
+Yorkshire and The Humber,Lower pressure,5,4.62
