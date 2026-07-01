@@ -34,7 +34,7 @@ The final recommendations report translates the analysis into practical stakehol
 
 Read the report here:
 
-[Final recommendations](../reports/final_recommendations.md)
+[Final recommendations](https://github.com/jsklair/project_01_uk_house_price_analysis/blob/main/reports/final_recommendations.md)
 
 ## Outputs completed
 
@@ -59,7 +59,7 @@ Read the report here:
 
 ## Power BI dashboard
 
-The Power BI dashboard is stored at:
+The Power BI dashboard is stored in the project repository at:
 
 ```text
 power_bi/first_time_buyer_affordability_dashboard.pbix
@@ -79,23 +79,23 @@ The dashboard is used as the interactive presentation layer. It sits alongside t
 
 ### Executive Summary
 
-![Executive Summary](../power_bi/screenshots/01_executive_summary.png)
+![Executive Summary](https://raw.githubusercontent.com/jsklair/project_01_uk_house_price_analysis/main/power_bi/screenshots/01_executive_summary.png)
 
 ### Regional Comparison
 
-![Regional Comparison](../power_bi/screenshots/02_regional_comparison.png)
+![Regional Comparison](https://raw.githubusercontent.com/jsklair/project_01_uk_house_price_analysis/main/power_bi/screenshots/02_regional_comparison.png)
 
 ### Local Authority Ranking
 
-![Local Authority Ranking](../power_bi/screenshots/03_local_authority_ranking.png)
+![Local Authority Ranking](https://raw.githubusercontent.com/jsklair/project_01_uk_house_price_analysis/main/power_bi/screenshots/03_local_authority_ranking.png)
 
 ### Change Over Time
 
-![Change Over Time](../power_bi/screenshots/04_change_over_time.png)
+![Change Over Time](https://raw.githubusercontent.com/jsklair/project_01_uk_house_price_analysis/main/power_bi/screenshots/04_change_over_time.png)
 
 ### Methodology and Caveats
 
-![Methodology and Caveats](../power_bi/screenshots/05_methodology_and_caveats.png)
+![Methodology and Caveats](https://raw.githubusercontent.com/jsklair/project_01_uk_house_price_analysis/main/power_bi/screenshots/05_methodology_and_caveats.png)
 
 ## Status
 
