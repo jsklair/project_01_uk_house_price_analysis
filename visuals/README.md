@@ -1,13 +1,22 @@
 # Visuals
 
-This folder will store exported charts and dashboard screenshots used in the README and GitHub Pages summary.
+This folder contains Python chart outputs used to support the exploratory analysis and public project summary.
 
-Recommended visuals:
+## Chart outputs
 
-- Top 10 least affordable areas.
-- Top 10 most affordable areas.
-- Distribution of lower-quartile affordability ratios.
-- Map or regional comparison where practical.
-- Change in affordability over time.
+```text
+latest_year_affordability_distribution.png
+regional_median_affordability_ratio.png
+top_15_affordability_pressure.png
+largest_five_year_increases.png
+```
 
-Charts should have clear titles, labelled axes and short notes explaining the measure used.
+The charts show the latest-year affordability ratio distribution, regional median affordability ratios, the highest-pressure local authorities and the largest five-year increases.
+
+Power BI dashboard screenshots are stored separately in:
+
+```text
+power_bi/screenshots/
+```
+
+Keeping Python charts and Power BI screenshots separate makes it easier to distinguish exploratory analysis outputs from dashboard evidence.
