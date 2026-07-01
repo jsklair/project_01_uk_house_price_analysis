@@ -4,7 +4,7 @@ This folder stores exported results from the SQL analysis stage.
 
 The SQL scripts are the main evidence of the analytical logic. The exported CSV files are saved here so the final README and GitHub Pages summary can cite the exact results used for the written insights.
 
-## Recommended folder structure
+## Folder structure
 
 ```text
 sql/outputs/
