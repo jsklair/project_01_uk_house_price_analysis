@@ -12,7 +12,7 @@ The analysis also shows why latest-year rankings should be considered alongside 
 
 ## Project status
 
-Data collection, cleaning, SQL analysis and Python exploratory analysis are complete. The next stage is the Excel review workbook and Power BI dashboard design.
+Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review and Power BI dashboard development are complete. The next stage is final documentation, dashboard evidence, GitHub Pages polish and final review.
 
 ## Business background
 
@@ -79,6 +79,18 @@ Tandridge recorded the largest five-year increase in the exported SQL and Python
 
 This matters because some areas with more moderate current ratios may still be moving quickly in the wrong direction.
 
+## Dashboard summary
+
+The Power BI dashboard provides an interactive view of the analysis. It contains five pages:
+
+1. Executive Summary
+2. Regional Comparison
+3. Local Authority Ranking
+4. Change Over Time
+5. Methodology and Caveats
+
+The dashboard uses the cleaned area-year dataset as its source. It is designed as the presentation and exploration layer, while the Excel workbook provides a transparent review layer.
+
 ## Success criteria
 
 The project will be considered successful when it contains:
@@ -133,8 +145,10 @@ This project focuses on first-time buyer affordability pressure by area. For tha
 - `sql/outputs/` stores exported SQL result sets.
 - `reports/sql_findings.md` summarises the SQL findings.
 - `reports/python_exploratory_findings.md` summarises the Python exploratory findings.
+- `excel/first_time_buyer_affordability_review.xlsx` contains the Excel review workbook.
+- `power_bi/first_time_buyer_affordability_dashboard.pbix` contains the Power BI dashboard.
 - `visuals/` stores chart outputs for the case study and dashboard.
 
 ## Next analytical step
 
-The next stage is the Excel review workbook. It will use the cleaned dataset and Python summary outputs to create a transparent review pack with source checks, summary tables and selected charts.
+The next stage is to capture dashboard evidence, update GitHub Pages and complete the final project review before merging the project branch.
