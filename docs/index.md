@@ -45,6 +45,7 @@ A national house price average is not enough to understand affordability. Buyers
 - Excel review workbook.
 - Excel workbook specification.
 - Power BI dashboard.
+- Power BI dashboard screenshots.
 
 ## Power BI dashboard
 
@@ -64,13 +65,34 @@ It contains five pages:
 
 The dashboard is used as the interactive presentation layer. It sits alongside the Excel workbook, SQL outputs, Python notebook and written reports rather than replacing them.
 
+## Dashboard screenshots
+
+### Executive Summary
+
+![Executive Summary](../power_bi/screenshots/01_executive_summary.png)
+
+### Regional Comparison
+
+![Regional Comparison](../power_bi/screenshots/02_regional_comparison.png)
+
+### Local Authority Ranking
+
+![Local Authority Ranking](../power_bi/screenshots/03_local_authority_ranking.png)
+
+### Change Over Time
+
+![Change Over Time](../power_bi/screenshots/04_change_over_time.png)
+
+### Methodology and Caveats
+
+![Methodology and Caveats](../power_bi/screenshots/05_methodology_and_caveats.png)
+
 ## Planned final outputs
 
-- Power BI screenshots or exported dashboard evidence.
 - Final business-facing recommendations.
 - Final GitHub Pages polish.
 - Final review before merging the project branch.
 
 ## Status
 
-Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review and Power BI dashboard development are complete. The project is now in the final documentation and presentation stage.
+Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review, Power BI dashboard development and dashboard evidence are complete. The project is now in the final documentation and presentation stage.
