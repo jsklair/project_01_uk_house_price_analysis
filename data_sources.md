@@ -1,44 +1,46 @@
 # Data sources
 
-## Primary source: ONS housing affordability dataset
+## Primary source
 
-Planned source: Office for National Statistics, house price to workplace-based earnings ratio dataset.
+The project uses the Office for National Statistics house price to workplace-based earnings affordability dataset for England and Wales.
 
-The 2025 ONS housing affordability release was published on 26 March 2026. The dataset calculates affordability ratios by dividing house prices by gross annual workplace-based earnings, with both median and lower-quartile measures available for England and Wales.
+Source workbook:
 
-This source is suitable because the lower-quartile measure is especially relevant for a first-time buyer angle. It is closer to the entry-level market than a national or median house price measure.
+```text
+aff1ratioofhousepricetoworkplacebasedearnings.xlsx
+```
 
-Fields expected to be useful:
+The dataset provides affordability ratios by dividing house prices by gross annual workplace-based earnings. The project focuses on the lower-quartile measure because it is more relevant to an entry-level first-time buyer affordability question than a national or median-only view.
 
-- Area name
-- Area code
-- Year
-- Lower-quartile house price
-- Lower-quartile annual earnings
-- Lower-quartile affordability ratio
-- Median house price
-- Median annual earnings
-- Median affordability ratio
+## Source fields used
 
-## Supporting source: UK House Price Index
+The cleaned analysis uses fields for:
 
-Planned source: HM Land Registry UK House Price Index data downloads.
-
-The UK House Price Index reports are published by HM Land Registry and include CSV data downloads. The reports collection was last updated on 17 June 2026, and the March 2026 data downloads were published on 20 May 2026.
-
-This source may be used to provide additional context on recent house price movement, especially where a local area's affordability ratio has changed materially.
+- country or region code;
+- country or region name;
+- local authority code;
+- local authority name;
+- year;
+- lower-quartile house price;
+- lower-quartile annual earnings;
+- lower-quartile affordability ratio;
+- median affordability ratio.
 
 ## Source handling approach
 
-- Unedited downloads are retained in `data/raw/`.
-- Analysis-ready extracts are saved in `data/cleaned/`.
-- Assumptions and transformations are recorded in the cleaning log.
-- Raw files remain unchanged.
-- Source URLs, download dates and release dates are recorded in this file.
+- The raw workbook is stored locally under `data/raw/` during reproduction.
+- The raw workbook is not committed to the repository.
+- Analysis-ready data is saved under `data/cleaned/`.
+- Transformations are documented in `reports/cleaning_log.md`.
+- The data dictionary is stored in `data/dictionary/data_dictionary.csv`.
+- Source tracking is recorded in `data/raw/source_record.csv`.
 
-## Download log
+## Download record
 
-| Source | File | Downloaded on | Release date | Notes |
-|---|---|---:|---:|---|
-| ONS housing affordability | To be added | To be added | 26 March 2026 | Primary analytical dataset |
-| HM Land Registry UK HPI | To be added | To be added | 20 May 2026 for March 2026 data downloads | Supporting context if required |
+| Source | File | Release date | Use in project |
+|---|---|---:|---|
+| Office for National Statistics, house price to workplace-based earnings affordability dataset | `aff1ratioofhousepricetoworkplacebasedearnings.xlsx` | 26 March 2026 | Primary analytical dataset |
+
+## Notes
+
+A separate UK House Price Index source was considered during early planning, but it was not used in the final analysis. Keeping the project focused on the ONS affordability workbook made the workflow clearer and avoided mixing different source definitions.
