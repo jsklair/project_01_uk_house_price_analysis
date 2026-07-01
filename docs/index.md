@@ -55,6 +55,7 @@ Read the report here:
 - Power BI dashboard.
 - Power BI dashboard screenshots.
 - Final recommendations report.
+- Project review questions.
 
 ## Power BI dashboard
 
@@ -96,11 +97,6 @@ The dashboard is used as the interactive presentation layer. It sits alongside t
 
 ![Methodology and Caveats](../power_bi/screenshots/05_methodology_and_caveats.png)
 
-## Planned final outputs
-
-- Final GitHub Pages polish.
-- Final review before merging the project branch.
-
 ## Status
 
-Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review, Power BI dashboard development, dashboard evidence and final recommendations are complete. The project is now in the final polish and review stage.
+The project is complete. Data collection, cleaning, SQL analysis, Python exploratory analysis, Excel review, Power BI dashboard development, dashboard evidence, final recommendations and project review questions are included.
